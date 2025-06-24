@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JoeStocks</title>
+<link rel="stylesheet" href="index.css">
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+</head>
+<body>
+	<header class="navbar">
+		<div class="navbar-container">
+			<span class="brand">JoeStocks</span>
+			<nav class="navbar-links">
+				<a href="index.html">Home</a> <a href="index.html">Search</a> <a
+					href="login.html">Login</a> <a href="login.html">Sign Up</a>
+			</nav>
+		</div>
+	</header>
+	<main>
+		<div class="search-container">
+			<h1>SEARCH STOCKS</h1>
+			<div class="search-box">
+				<input type="text" id="search-input"
+					placeholder="Search by ticker...">
+				<button id="search-btn">🔍</button>
+			</div>
+		</div>
+		<div class="flex-container" style="display: none">
+			<div class="flex-container-logged-in " style="display: none">
+				<div class="stock-details">
+					<div id="stock-symbol" class="stock-symbol"></div>
+					<div id="stock-company-name" class="stock-company-name"></div>
+					<div id="stock-exchange" class="stock-exchange"></div>
+					<label>Quantity <input type="number" min="1" id="stock-quantity"></label>
+					<button id="buy-button">Buy</button>
+				</div>
+				<div class="stock-price-details">
+					<div id="stock-price" class="stock-price"></div>
+					<div id="stock-change" class="stock-change">
+						<div id="stock-change" class="stock-change">
+							<i id="stock-change-icon" class=""></i> <span
+								id="stock-change-amount"></span>
+						</div>
+						<div id="stock-date-time" class="stock-date-time"></div>
+					</div>
+				</div>
+			</div>
+			<div id="market-status" class="market-status"></div>
+			<div id="summary" class="summary"></div>
+
+			<div id="title"></div>
+
+			<hr
+				style="height: 2px; border-width: 0; color: gray; background-color: gray">
+
+			<div id="quote"></div>
+
+			<hr
+				style="height: 2px; border-width: 0; color: gray; background-color: gray">
+
+			<h1>Company Information</h1>
+			<div id="company"></div>
+		</div>
+	</main>
+	<script src="index.js"></script>
+</body>
+</html>

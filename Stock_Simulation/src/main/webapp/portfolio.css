@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100%;
+	font-family: Arial, sans-serif;
+	background: #FFFFFF;
+}
+
+header .navbar-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 20px;
+	background-color: #5d60b0;
+	color: white;
+}
+
+header .navbar-links a {
+	color: white;
+	text-decoration: none;
+	margin-left: 15px;
+}
+
+header .brand {
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.portfolio-title {
+	text-align: left;
+	padding: 20px;
+	border-bottom: 2px;
+	margin-left: 300px;
+}
+
+.portfolio-header h1 {
+	color: #000;
+	font-size: 2rem;
+}
+
+.account-balance {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	gap: 10px;
+	margin-top: 10px;
+	margin-left: 300px;
+}
+
+.account-balance {
+	font-size: 1.2rem;
+	color: #000;
+	margin: 0;
+}
+
+.account-balance span {
+	font-weight: bold;
+}

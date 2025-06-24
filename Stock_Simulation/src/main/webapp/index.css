@@ -1,0 +1,169 @@
+/* Base reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+p {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	line-height: 1.6;
+}
+
+html, body {
+	height: 100%;
+	font-family: Arial, sans-serif;
+	background: #FFFFFF;
+}
+
+header .navbar-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 20px;
+	background-color: #5d60b0;
+	color: white;
+}
+
+header .navbar-links a {
+	color: white;
+	text-decoration: none;
+	margin-left: 15px;
+}
+
+header .brand {
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 5px;
+}
+
+.search-container h1 {
+	padding-top: 200px;
+	color: #5d60b0;
+	margin: 30px 0;
+	font-size: 3em;
+	position: relative;
+}
+
+.search-box {
+	position: relative;
+}
+
+#search-input {
+	padding: 10px;
+	font-size: 16px;
+	border: 2px solid #5d60b0;
+	border-radius: 4px;
+	width: 500px;
+}
+
+#stock-quantity {
+	padding: 10px;
+	font-size: 16px;
+	width: 50px;
+	height: 30px;
+}
+
+#search-btn {
+	position: relative;
+	padding: 10px;
+	background-color: #5d60b0;
+	border: none;
+	color: white;
+	border-radius: 0 4px 4px 0;
+	cursor: pointer
+}
+
+#buy-button {
+	position: static;
+	padding: 10px;
+	background-color: green;
+	border: none;
+	color: white;
+	border-radius: 0 4px 4px 0;
+	cursor: pointer;
+	width: 40px;
+	height: 30px;
+}
+
+.flex-container {
+	padding: 10px 150px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+}
+
+.flex-container-logged-in {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+  align-items: center;
+}
+
+.stock-details, .stock-price-details {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 10px;
+}
+
+.stock-details {
+	text-align: left;
+}
+
+.stock-price-details {
+	text-align: right;
+}
+
+.market-status {
+	position: relatice;
+	bottom: 10px;
+	width: 100%;
+	text-align: center;
+}
+
+.quote, .summary {
+	align-self: center;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+h1 {
+	width: 100%;
+	text-align: center;
+	margin-top: auto;
+}
+
+hr {
+	height: 0.5px;
+	background-color: #0000;
+	width: 900px;
+	margin: 0 auto;
+}
+
+#title, #quote {
+	text-align: center;
+	width: 100%;
+}
+
+h1 {
+	text-align: center;
+	width: 100%;
+	font-size: 16px;
+	margin: 20px 0;
+}
+
+.company {
+	align-self: left;
+	width: 100%;
+	padding-left: 300px;
+}
